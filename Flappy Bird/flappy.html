@@ -5,6 +5,7 @@
     <title>Flappy Bird</title>
 <link href='flappy.css'>
 <script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>
+<button onmousedown="accelerate(-0.2)" onmouseup="accelerate(0.05)">ACCELERATE</button>
 <canvas>
     border:1px solid #d3d3d3;
     background-color: #f1f1f1;
@@ -16,6 +17,6 @@
 </style>
 </head>
 <body onload="startGame()">
-<script src='Flappy.js'></script>
+<script src='flappy.js'></script>
 </body>
 </html>
