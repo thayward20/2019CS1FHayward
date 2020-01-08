@@ -1,16 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/></meta>
-<link href='flappy.css'></link>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link href='flappy.css'>
 <script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>
-<style> canvas{
+<canvas>
+    border:1px solid #d3d3d3;
+    background-color: #f1f1f1;
+    </canvas>
+<style> canvas {
     border: 1px solid #d3d3d3;
     background-color: #f1f1f1;
+}
+#bird{
+    background:url('FRAPPY BIRD.png') no-repeat center center;
+    position: absolute;
+    background-size: contain;
+    height: 100px;
+    width: 100px:
 }
 </style>
 </head>
 <body onload="startGame()">
 <script src='flappy.js'></script>
+<button onmousedown="accelerate(-0.2)" onmouseup="accelerate(0.05)">FLAP</button>
 </body>
 </html>
