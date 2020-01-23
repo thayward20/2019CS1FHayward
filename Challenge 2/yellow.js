@@ -23,9 +23,8 @@ You will need to research JavaScript String functions .charAt.*/
 
 function reverse(message) {
     var reverseString = "";
-    for(var i=message.length-1; i>=0; i--){
-    reverseString += messsage.chartAt(i);
-    }
+    for(var i=message.length-1; i>=0; i--)
+    reverseString+=message.charAt(i);
 return reverseString;
 }
 
