@@ -2,19 +2,58 @@
 <html>
     <head>
         <title></title>
-    <link rel="stylesheet" href="mamba.css">
     <script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>
 
     <style>
         #baseballmap{
-            width:500px;
-            height:500px;
+            width:1200px;
+            height:700px;
             background:url('baseballmap.png')
         }
+        #box1{
+            width: 100px;
+            height: 100px;
+            background-color:lightblue;
+            opacity:0; 
+            position:absolute;
+            left: 395px;
+            top: 302px;
 
+        }
+        
+        #box2{
+            width: 100px;
+            height: 100px;
+            background-color:lightblue;
+            opacity:0; 
+            position:absolute;
+            left: 109px;
+            top: 109px;
 
+        }
+  p {
+    margin: 0;
+    margin-left: 10px;
+    color: red;
+    width: 220px;
+    height: 120px;
+    padding-top: 70px;
+    float: left;
+    font-size: 14px;
+  }
+  span {
+    display: block;
+  }
+</style>
     </head>
     <body>
+        <p>
+  
+  <span>&nbsp;</span>
+</p>
+<div></div>
+        <div id='box1'></div>
+         <div id='box2'></div>
         <img id="baseballmap" src="baseballmap.png">
     </body>
     <script src='kobe.js'></script>
