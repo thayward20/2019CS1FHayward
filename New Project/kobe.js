@@ -1,10 +1,17 @@
 
 $('#box1').click(
     function(){
-        $('[stadium]').fadeOut();
         $('#Coors').fadeIn();
     }
 );
+
+$('#exit').click(
+    function(){
+        $('[stadium]').fadeOut();
+    }
+);
+
+
 
 
 
