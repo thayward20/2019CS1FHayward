@@ -1,7 +1,11 @@
 
-$('#box1').click(
+$('.box').click(
     function(){
-        $('#Coors').fadeIn();
+        console.log("box clicked");
+        var imageName = $(".teamImage",this).text();
+        console.log(imageName);
+        $('#teamImage').append(imageName);
+        $('#teamImage').fadeIn();
     }
 );
 
