@@ -4,8 +4,8 @@ $('.box').click(
         console.log("box clicked");
         var imageName = $(".teamImage",this).text();
         console.log(imageName);
-        $('#teamImage').append(imageName);
-        $('#teamImage').fadeIn();
+        $('#teamImage').attr("src",imageName);
+        $('#teamInfowrapper').fadeIn();
     }
 );
 
