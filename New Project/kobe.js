@@ -15,6 +15,14 @@ $('#exit').click(
     }
 );
 
+var curb = new Audio('Curb.mp3')
+
+$('#box11').click(
+    function(){
+    curb.play()
+    }
+);
+
 
 
 
