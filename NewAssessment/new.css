@@ -1,0 +1,57 @@
+@CHARSET "UTF-8";
+
+ .box{
+        width: 200px;
+        height:100px;
+     border-radius:5%; 
+     text-align: center;
+     line-height: 100px;
+     font-size: 50px;
+   display:inline-block;
+
+    }
+    
+    #box1{
+    background-color: orange;
+    font-family: "kranky";
+    text:black;
+    }
+
+    #box2{
+        background-color: blue;
+         color: white;
+    }
+     #box3{
+        background-color: maroon;
+         color: white;
+    }
+      #box4{
+        background-color: maroon;
+         color: white;
+    }
+     #box5{
+        background-color: blue;
+         color: white;
+     }
+    #bar{
+        width:1200px;
+        height:50px;
+        background-color: blue;
+        border-radius: 5px;
+        line-height: 50px;
+        overflow:hidden;
+        text-align: right;
+        font-size: 30px;
+     font-family: "kranky";
+     color:white;
+
+    }
+#bigbox{
+    height: 600px;
+    width: 600px;
+    background-color: green;
+    display:inline-block;
+    overflow: hidden;
+    border: 7px dashed blue;
+    margin:10px;
+}
